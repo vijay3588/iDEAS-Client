@@ -1,0 +1,105 @@
+.header-buttons {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.btn-green {
+    background-color: cadetblue !important;
+    border-color: cadetblue !important;
+    margin-right: 3px;
+    width: 40px;
+}
+
+.btn-blue {
+    background-color: lightblue !important;
+    border-color: lightblue !important;
+    margin-right: 3px;
+    width: 40px;
+}
+
+.btn-red {
+    background-color: indianred !important;
+    border-color: indianred !important;
+    margin-right: 3px;
+    width: 40px;
+}
+
+.table-row {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+.custom-table-style .table td, .custom-table-style .table th {
+    padding: 0.3125rem .9375rem;
+    vertical-align: top;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.custom-table-style .table {
+    margin-bottom: 0;
+    border: 0px;
+}
+.custom-table-style .table .thead-light th {
+    background: #82b443;
+    color:#FFF;
+}
+.input_document_type_selected{
+    box-shadow: 0 0px 5px #82b443;
+    border-radius: 5px;
+}
+.paddingTB15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#input_document_type {
+    margin-bottom: 20px;
+}
+.dynamic-request-form {
+    padding: 24px 0;
+}
+#input_document_type.form-control.is-valid, .was-validated #input_document_type.form-control:valid {
+    background-image: none;
+}
+.modal-header span {
+    display: block;
+    width: 100%;
+}
+.ReactModal__Content .modal-header .modal-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.modal-body label {
+    font-size: 14px;
+    font-weight: bold;
+}
+.modal-body input {
+    font-size: 12px;
+}
+.modal-footer .btn {
+    font-size: 12px;
+}
+.ReactModal__Content .modal-header {
+    padding: 0.625rem 0.625rem;
+    background: #eeeeee;
+}
+.ReactModal__Overlay {
+    z-index:100;
+}
+.doc-request-rejected{
+    font-weight: bold;
+    
+}.updated_row{
+    color: #f6c23e !important;
+    font-weight: bold;
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}

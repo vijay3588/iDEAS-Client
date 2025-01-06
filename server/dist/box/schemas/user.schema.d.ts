@@ -1,0 +1,8 @@
+import { Document } from 'mongoose';
+export declare class User extends Document {
+    name: string;
+    id: string;
+    roles: string[];
+    approved: boolean;
+}
+export declare const UserSchema: import("mongoose").Schema<User, import("mongoose").Model<User, any, any>, undefined, {}>;

@@ -1,0 +1,1 @@
+{"version":3,"file":"create-photo.dto.js","sourceRoot":"","sources":["../../../src/common/dto/create-photo.dto.ts"],"names":[],"mappings":";;;AAAA,MAAa,cAAc;IACzB,YAAY,SAAc,EAAE;QAC1B,IAAI,CAAC,WAAW,GAAG,MAAM,CAAC,WAAW,CAAC;QACtC,IAAI,CAAC,IAAI,GAAG,MAAM,CAAC,IAAI,CAAC;QACxB,IAAI,CAAC,SAAS,GAAG,MAAM,CAAC,SAAS,CAAC;IACpC,CAAC;IAAA,CAAC;CAIH;AATD,wCASC"}

@@ -1,0 +1,25 @@
+.white-breadcrumb {
+    background-color: white !important;
+    margin-top: 15px !important;
+}
+
+.portlet {
+    max-height: 350px;
+}
+
+.topbar, .topbar .nav-item .nav-link {
+    height: 3.375rem;
+}
+
+.navbar .breadcrumb {
+    margin-bottom: 0;
+}
+.user-profile {
+    background: url('../../assets/images/default-user.png') no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    position: relative;
+    top: 4px;
+}

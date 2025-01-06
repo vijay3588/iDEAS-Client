@@ -1,0 +1,98 @@
+.header-buttons {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.btn-green {
+    background-color: cadetblue !important;
+    border-color: cadetblue !important;
+    margin-right: 3px;
+    width: 40px;
+}
+
+.btn-blue {
+    background-color: lightblue !important;
+    border-color: lightblue !important;
+    margin-right: 3px;
+    width: 40px;
+}
+
+.btn-red {
+    background-color: indianred !important;
+    border-color: indianred !important;
+    margin-right: 3px;
+    width: 40px;
+}
+
+.table-row {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+.custom-table-style .table td, .custom-table-style .table th {
+    padding: 0.3125rem .9375rem;
+    vertical-align: top;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.custom-table-style .table {
+    margin-bottom: 0;
+    border: 0px;
+}
+.custom-table-style .table .thead-light th {
+    background: #82b443;
+    color:#FFF;
+}
+.react-datepicker-wrapper {
+    width: auto;
+    min-width: 220px
+}
+.date-filter label {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.date-filter .react-datepicker-wrapper input{
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 1px solid #bdb9b9;
+    width: 100%;
+}
+.date-filter .btn.btn-primary {
+    font-size: 14px;
+}
+.checkbox-conatiner {
+    padding: 15px;
+    border:1px solid #ccc;
+    display: inline-block;
+    border-radius: 4px;
+}
+.checkbox-conatiner label {
+    font-size: 14px;
+}
+
+.react-bs-table-bordered.my-table-container-hide.react-bs-table .table{
+    width: 1600px;
+}
+/* .react-bs-table-bordered.my-table-container-hide.react-bs-table table td {
+    text-overflow: initial;
+    overflow:visible;
+} */
+
+.react-bs-table .table-bordered>thead>tr>td, .react-bs-table .table-bordered>thead>tr>th {
+    border-bottom-width: 2px;
+    width: 150px;
+}
+.react-bs-table-bordered.react-bs-table table td {
+    text-overflow: initial;
+    overflow: visible;
+    width: 150px;
+    white-space: normal;
+}
+.logsheet-btn{
+    padding-top: 29px;
+}
